@@ -4,3 +4,4 @@ pydantic
 sqlalchemy[asyncio]
 aiosqlite
 typing
+psycopg2-binary
