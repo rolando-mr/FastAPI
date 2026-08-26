@@ -16,7 +16,7 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 # CONFIGURACIÓN DE BASE DE DATOS
 # -----------------------
 
-DATABASE_URL = "postgresql://contactosbd_user:HHlbXUNn3NFtG78NkcUR0a4HTbnGVmYp@dpg-da7kqnu7bikc73dnidig-a/contactosbd"
+DATABASE_URL = "postgresql+asyncpg://contactosbd_user:HHlbXUNn3NFtG78NkcUR0a4HTbnGVmYp@dpg-da7kqnu7bikc73dnidig-a/contactosbd"
 
 engine = create_async_engine(DATABASE_URL, echo=True)
 
